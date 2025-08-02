@@ -50,7 +50,6 @@ async def process_video(bot, message: Message):
         caption=message.caption,
         thumb=thumb_path if os.path.exists(thumb_path) else None,
         supports_streaming=True,
-        parse_mode="html"
     )
 
     try:
