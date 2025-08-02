@@ -1,0 +1,24 @@
+{
+  "name": "Forward Bot with Thumbnail",
+  "description": "Telegram bot to repost videos with 10s thumbnails without changing captions.",
+  "repository": "https://github.com/yourusername/forward-bot",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
