@@ -1,6 +1,6 @@
 build:
   docker:
-    worker: Dockerfile
+    worker: python3 main.py
 run:
   worker: python3 main.py
 
