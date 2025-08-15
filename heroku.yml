@@ -1,9 +1,2 @@
-build:
-  docker:
-    worker: python3 main.py
 run:
-  worker: python3 main.py
-
-  # for heroku deployment...add this bulidpack.  
-#  https://github.com/heroku/heroku-buildpack-activestorage-preview
-
+  web: python3 main.py
